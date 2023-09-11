@@ -7,7 +7,7 @@ Our first code is to print **Hello World** to the screen, in order to do that, w
 print("Hello World")
 ```
 
-By doing so, we will be printing **Hello World** to the screen. If we look carefully, there are two **"** surrounding **Hello World**. When something that is sandwhiched by two **"**, it represents a **string**. One might ask, what is **string**? **string** is really referring to **word/(s)**.
+By doing so, we will be printing **Hello World** to the screen. If we look carefully, there are two **"** surrounding **Hello World**. When something that is sandwhiched by two **"**, it represents a **string**. One might ask, what is **string**? **string** is really referring to **word(s)**.
 For example, ```This is a word```, ```hi```, ```k```,```Jayden```, ```Chloe```, ```Claire```,and ```jeffrey is a monster``` will be considered as ```string``` in python. 
 
 So, if we want to print ```i love programming in python```, first we have to include two **"** from the beginning of the string and at the end of the string which will look like this, ```"i love programming in python"```. From here, we simply add that string and put it in side the **(**some_string**)**. So we end up having ```print("i love programming in python")```
@@ -94,12 +94,12 @@ else:
 It does the same thing as (1), the only thing that is differ from (1) is the ```input()```
 
 Lets talk about the logical statement operators. Basically it is strictly following the mathematical operators like the follwoing
-1. < - less than
-2. <= - less than or equal to
-3. > - greaater than
-4. >= - greater than or equal to
-5. != - that ! is saying not, so combine the two symbols together is saying not equal to
-6. == - that is saying are the equal. 
+1. ```<``` : less than
+2.```<=``` : less than or equal to
+3.```>``` : greaater than
+4.```>=``` : greater than or equal to
+5.```!=``` : that ! is saying not, so combine the two symbols together is saying not equal to
+6.```==``` : that is saying are the equal. 
 
 So when we are using logical statement. We will be comparing two things, namely A and B. It can be **both** string or **both** number. You cant compair words with a number.
 For example:
