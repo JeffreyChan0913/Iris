@@ -95,11 +95,11 @@ It does the same thing as (1), the only thing that is differ from (1) is the ```
 
 Lets talk about the logical statement operators. Basically it is strictly following the mathematical operators like the follwoing
 1. ```<``` : less than
-2.```<=``` : less than or equal to
-3.```>``` : greaater than
-4.```>=``` : greater than or equal to
-5.```!=``` : that ! is saying not, so combine the two symbols together is saying not equal to
-6.```==``` : that is saying are the equal. 
+2. ```<=``` : less than or equal to
+3. ```>``` : greaater than
+4. ```>=``` : greater than or equal to
+5. ```!=``` : that ! is saying not, so combine the two symbols together is saying not equal to
+6. ```==``` : that is saying are the equal. 
 
 So when we are using logical statement. We will be comparing two things, namely A and B. It can be **both** string or **both** number. You cant compair words with a number.
 For example:
