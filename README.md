@@ -12,7 +12,7 @@ For example, ```This is a word```, ```hi```, ```k```,```Jayden```, ```Chloe```, 
 
 So, if we want to print ```i love programming in python```, first we have to include two **"** from the beginning of the string and at the end of the string which will look like this, ```"i love programming in python"```. From here, we simply add that string and put it in side the **(**some_string**)**. So we end up having ```print("i love programming in python")```
 
-So to here is the template, you will need to replace __replace_your_own_string__ to what you would like to print. ```print("__replace_your_own_string__")```
+Here is the template, you will need to replace __replace_your_own_string__ to what you would like to print. ```print("__replace_your_own_string__")```
 
 In summary, string is just referring to word(s), where words include numbers and word(s) in general. 
 
