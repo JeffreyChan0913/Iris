@@ -42,8 +42,7 @@ In this example, we want to put the price, 29.99, into box. And we would like to
 
 ### Deep thinking,
 
-How do we assign Jeffrey Chan into the box called name? 
-
+How do we assign ```Jeffrey Chan``` into the box called name? In another word, create a variable call name and set it's value to ```Jeffrey Chan```.
 
 ### Logical statement
 Logical statement will help us to decide what should we do based on different kind of situations. 
