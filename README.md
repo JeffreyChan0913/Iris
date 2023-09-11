@@ -152,7 +152,7 @@ elif option == "F":
 else: 
 	print("G")
 ```
-One of seven branches, we will only print one particular statement. 
+We will executed one out of seven branches. So, we are basically **pre define** what are the possible behavior of a certain program. 
 
 Keypoint here is, it doesnt matter how many branches ( branches is really referring to the amount of if elif checkings) we have, only one of them will be executed. 
 
