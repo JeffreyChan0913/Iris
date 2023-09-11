@@ -135,7 +135,7 @@ else:
 ```
 In this case, we are checking what would you like to eat. If the value of food is fries, then you will get a fries. If the value of food is burger, you will get a burger for food, otherwise, we will get desert because we only offer three types of food.
 
-Key here is, if will ues if elif else structure, we will only get one thing done among all possible branches. If we have the following
+We will only get one thing done among all possible branches. If we have the following
 ```python
 if option == "A":
 	print("A")
@@ -152,7 +152,9 @@ elif option == "F":
 else: 
 	print("G")
 ```
-Albeit we have some many branches ( branches is really referring to the amount of if elif checkings), only one of them will be executed. 
+One of seven branches, we will only print one particular statement. 
+
+Keypoint here is, it doesnt matter how many branches ( branches is really referring to the amount of if elif checkings) we have, only one of them will be executed. 
 
 
 
