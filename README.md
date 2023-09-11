@@ -1,7 +1,7 @@
 # 0901
 
 ### Printing things to the screen
-Our first code is to print **Hello World** to the screen, in order to do that, we will need to use a $\textit{built in}$ function call print. 
+Our first code is to print **Hello World** to the screen, in order to do that, we will need to use a $\textit{built in}$ function, denoted as print. 
 
 ```python
 print("Hello World")
