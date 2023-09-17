@@ -168,11 +168,10 @@ Keypoint here is, it doesnt matter how many branches ( branches is really referr
 3.How to get input from user thru the keyboard?
 
 4.After getting the input from user thru the keyboard, can we apply math operation on it? For example
-
-	```python
-	age = input("Your age")
-	age = age + 5
-	```
+```python
+age = input("Your age")
+age = age + 5
+```
 
 5. How to conver the input frmo string to age?
 
