@@ -162,14 +162,20 @@ Keypoint here is, it doesnt matter how many branches ( branches is really referr
 ### Review
 
 1.What is a string?
+
 2.What is the idea of variable?
+
 3.How to get input from user thru the keyboard?
+
 4.After getting the input from user thru the keyboard, can we apply math operation on it? For example
+
 	```python
 	age = input("Your age")
 	age = age + 5
 	```
+
 5. How to conver the input frmo string to age?
+
 6. How we make decision? What is the magic word? 
 
 
