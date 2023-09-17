@@ -172,6 +172,7 @@ Keypoint here is, it doesnt matter how many branches ( branches is really referr
 age = input("Your age")
 age = age + 5
 ```
+If we input 20, will we get 25 in this case?
 
 5. How to conver the input frmo string to age?
 
