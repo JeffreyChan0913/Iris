@@ -188,6 +188,99 @@ If we input 20, will we get 25 in this case?
 
 6. How we make decision? What is the magic word? 
 
+### Logical Statements
+
+Lets summarize our logical statements,
+1. The following is the basic structure of if else statement. 
+```python
+if ...:
+	statement A
+else:
+	statement B
+```
+2. We can add more branches by using the keyword **elif**
+
+```python
+if ...:
+	statement A
+elif ...:
+	statement B
+else:
+	statement C
+```
+3. we can add more branches
+
+```python
+if ...:
+	statement A
+elif ...:
+	statement B
+elif ...:
+	statement C
+elif ...:
+	statement D
+elif ...:
+	statement E
+elif ...:
+	statement F
+else:
+	statement G
+```
+
+These three particular structures, have the same common behaviour that is only one statement will be executed.
+
+Lets analyze another type of statement, assume each statement will print something to the screen, find out how many statements will be printed at most?
+
+1. 
+
+```python
+if ...:
+	statement A
+if ...:
+	statement B
+if ...:
+	statement C
+```
+
+2.
+```python
+if ...:
+	statement A
+if ...:
+	statement B
+elif ...:
+	statement C
+```
+3. 
+```python
+if ...:
+	statement A
+if ...:
+	statement B
+elif ...:
+	statement C
+else:
+	statement D
+if ...:
+	statement E
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
