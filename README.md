@@ -1,4 +1,4 @@
-# 0901
+# 0910
 
 ### Printing things to the screen
 Our first code is to print **Hello World** to the screen, in order to do that, we will need to use a $\textit{built in}$ function, denoted as print. 
@@ -157,9 +157,20 @@ We will executed one out of seven branches. So, we are basically **pre define** 
 Keypoint here is, it doesnt matter how many branches ( branches is really referring to the amount of if elif checkings) we have, only one of them will be executed. 
 
 
+# 0917
 
+### Review
 
-
+1.What is a string?
+2.What is the idea of variable?
+3.How to get input from user thru the keyboard?
+4.After getting the input from user thru the keyboard, can we apply math operation on it? For example
+	```python
+	age = input("Your age")
+	age = age + 5
+	```
+5. How to conver the input frmo string to age?
+6. How we make decision? What is the magic word? 
 
 
 
