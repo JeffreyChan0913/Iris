@@ -69,7 +69,7 @@ This code will ask you to input your age. This time, we have ```int()``` wrap ar
 2. you input 5, which means ```input("How old are you?")``` will become 5 once you input 5 from the keyboard and hit enter.
 3. ```age = int(5)```, since what ever we get from input, it is a **string (word(s))**, and if we would like to use age as a number, we will need to convert it to number. So what ```int()``` does is, int itself is integer, we are basically converting what ever that is inside the **(...)** to integer. Thats it.
 4. ```age = 5```
-### Logical statement
+### Logical statements
 Logical statement will help us to decide what should we do based on different kind of situations. 
 
 For example, 
@@ -93,6 +93,8 @@ else:
 ```
 It does the same thing as (1), the only thing that is differ from (1) is the ```input()```
 
+### Logical statement operators
+
 Lets talk about the logical statement operators. Basically it is strictly following the mathematical operators like the follwoing
 1. ```<``` : less than
 2. ```<=``` : less than or equal to
@@ -102,7 +104,9 @@ Lets talk about the logical statement operators. Basically it is strictly follow
 6. ```==``` : that is saying are the equal. 
 
 So when we are using logical statement. We will be comparing two things, namely A and B. It can be **both** string or **both** number. You cant compair words with a number.
+
 For example:
+
 ```python 
 a = 10
 b = 20
@@ -121,9 +125,15 @@ if a ==  b:
 
 ```
 
-We should see ```a is less than b```, ```a is less than or equal to b```, ```a and b is not the same```, and ```a is the same as b```.
+Output:
+```
+a is less than b
+a is less than or equal to b
+a and b is not the same
+a is the same as b
+```
 
-Now, lets look at if else if structure.
+Now, lets analyze the **if else if structure**.
 ```python
 food = input("Do you want fries, burger, or desert?)
 if food == "fries":
