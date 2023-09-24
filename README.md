@@ -289,14 +289,14 @@ print(age + 5)
 
 By default, the type of age is english, we cant do math on english words. As a result, we will need to convert the input to a number of convert the age to a number.
 
-	1. method 1:
+	Method 1:
 
 	```python
 	age = int(input("what ever question you would like to ask"))
 	print(age + 5)
 	```
 
-	2. method 2:
+	Method 2:
 
 	```python
 	age = int(input("what ever question you would like to ask"))
