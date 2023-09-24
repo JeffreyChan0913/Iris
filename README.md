@@ -281,10 +281,12 @@ age = input("What ever the question you would like to ask")
 	In this case, we assign 10 to age. So the value of age is 10.
 
 2. if we have
+
 ```python
 age = input("what ever question you would like to ask")
 print(age + 5)
 ```
+
 By default, the type of age is english, we cant do math on english words. As a result, we will need to convert the input to a number of convert the age to a number.
 
 	a. method 1:
