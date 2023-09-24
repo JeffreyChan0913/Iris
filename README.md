@@ -325,9 +325,11 @@ else:
 
 ## Problem Day:
 
-1. Code up a simple algorithm that takes input and store your name, age, and gender. Then print out your name, age, and gender. After that, decide if you are at least 18 year old or not. If you are over 18, print you are older than 18. Otherwise, you are younger than 18.
+### Problem 1
+Code up a simple algorithm that takes input and store your name, age, and gender. Then print out your name, age, and gender. After that, decide if you are at least 18 year old or not. If you are over 18, print you are older than 18. Otherwise, you are younger than 18.
 
-2. Get two ages from user and check if the sum of two ages are greater than 50. 
+### Problem 2:
+Get two ages from user and check if the sum of two ages are greater than 50. 
 
 
 
