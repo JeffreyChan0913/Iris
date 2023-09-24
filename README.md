@@ -265,13 +265,58 @@ if ...:
 	statement E
 ```
 
+# 0924
 
+Remember the following:
 
+```python
+age = input("What ever the question you would like to ask")
+```
+1. age is the variable that stores a value from user. You can assign a specific value to age if you want , so input is not needed.
+	a. example:
+	```python
+	age = 10
+	```
+	In this case, we assign 10 to age. So the value of age is 10.
+2. if we have
+```python
+age = input("what ever question you would like to ask")
+print(age + 5)
+```
+By default, the type of age is english, we cant do math on english words. As a result, we will need to convert the input to a number of convert the age to a number.
+	a. method 1:
+	```python
+	age = int(input("what ever question you would like to ask"))
+	print(age + 5)
+	```
+	b. method 2:
+	```python
+	age = int(input("what ever question you would like to ask"))
+	print(int(age)+5)
+	```
+3. when we get the input as english word (the actual type is call string, short for **str**), and if we want to compare the result, for example
+```python
+age = input("what ever question you would like to ask")
+if age == 3:
+	print("you are 3 year old")
+else:
+	print("you are not 3 year old")
+```
+We will have an error here because english word cant compare with number. That means we will have to convert the value to either english or number to make it work.
 
+```python
+age = input("what ever question you would like to ask")
+if age == "3":
+	print("you are 3 year old")
+else:
+	print("you are not 3 year old")
+```
 
+Problem Day:
 
+1. Code up a simple algorithm that takes input and store your name, age, and gender. Then print out your name, age, and gender. After that, decide if you are at least 18 year old or not. If you are over 18, print you are older than 18. Otherwise, you are younger than 18.
 
-
+2. Get two ages from user and check if the sum of two ages are greater than 50. 
 
 
 
