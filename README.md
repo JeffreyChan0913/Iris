@@ -299,8 +299,8 @@ print(age + 5)
 Method 2:
 
 ```python
-	age = int(input("what ever question you would like to ask"))
-	print(int(age)+5)
+age = int(input("what ever question you would like to ask"))
+print(int(age)+5)
 ```
 
 3. when we get the input as english word (the actual type is call string, short for **str**), and if we want to compare the result, for example
