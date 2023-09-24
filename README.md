@@ -299,7 +299,7 @@ print(age + 5)
 Method 2:
 
 ```python
-age = int(input("what ever question you would like to ask"))
+age = input("what ever question you would like to ask")
 print(int(age)+5)
 ```
 
