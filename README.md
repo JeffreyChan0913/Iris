@@ -323,7 +323,7 @@ else:
 	print("you are not 3 year old")
 ```
 
-Problem Day:
+## Problem Day:
 
 1. Code up a simple algorithm that takes input and store your name, age, and gender. Then print out your name, age, and gender. After that, decide if you are at least 18 year old or not. If you are over 18, print you are older than 18. Otherwise, you are younger than 18.
 
