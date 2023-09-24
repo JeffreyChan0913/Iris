@@ -291,7 +291,7 @@ By default, the type of age is english, we cant do math on english words. As a r
 
 Method 1:
 
-	```python
+```python
 	age = int(input("what ever question you would like to ask"))
 	print(age + 5)
 	```
