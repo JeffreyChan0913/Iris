@@ -331,20 +331,76 @@ Code up a simple algorithm that takes input and store your name, age, and gender
 ### Problem 2:
 Get two ages from user and check if the sum of two ages are greater than 50. 
 
+### Oct 1
+
+Quiz: 
+1. how do we get input?
+
+2. how do we define our question when we are using the input?
+
+3. when we get the input, is it in english or number format?
+
+4. can we just english word into number format? if yes how?
+
+5. how to print ```I love animal``` to the screen?
+
+6. how do define something that is in english?
+
+7. how to assign value 10 into a box (variable) named age?
+
+8. what are the comparison operators you have learned?
+
+9. how many components we need to do the comparison?
+
+10. What will be printed with the following code
+
+```python
+name = "Jeff"
+if name == "jeff":
+	print("ok")
+if name == "Jeff":
+	print("alright")
+```
+	a.
+
+```
+ok
+alright
+```
+
+	b. ```ok```
+	c. nothing
+	d. ```alright```
 
 
+10. What will be printed with the following code
+
+```python
+name = "JEFF"
+if name == "jefF":
+	print("ok")
+elif name == "Jeff":
+	print("alright")
+else:
+	print("sounds good")
+```
+	a.
+
+```
+ok
+alright
+```
+
+	b. ```ok```
+	c. nothing
+	d. ```alright```
 
 
-
-
-
-
-
-
-
-
-
-
-
+##### Coding problem
+We want to create a code to get the age as an input to decide if a given age is in the range of the following:
+1. if the age is 0 to 8 year old print baby
+2. if the age is 9 to 17 print teenager 
+3. if the age is 18 or above print adult
+4. if the age is beyond 100 print insane. 
 
 
