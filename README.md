@@ -361,7 +361,7 @@ if name == "jeff":
 if name == "Jeff":
 	print("alright")
 ```
-	a.
+a.
 
 ```
 ok
@@ -385,7 +385,7 @@ else:
 	print("sounds good")
 ```
 
-	a.
+a.
 ```
 ok
 alright
