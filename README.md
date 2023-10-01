@@ -374,7 +374,7 @@ c. nothing
 d. ```alright```
 
 
-10. What will be printed with the following code
+11. What will be printed with the following code
 
 ```python
 name = "JEFF"
