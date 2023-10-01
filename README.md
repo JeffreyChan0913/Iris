@@ -399,7 +399,7 @@ c. nothing
 d. ```alright```
 
 
-##### Coding problem
+### Coding problem
 We want to create a code to get the age as an input to decide if a given age is in the range of the following:
 1. if the age is 0 to 8 year old print baby
 2. if the age is 9 to 17 print teenager 
