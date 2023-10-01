@@ -362,15 +362,15 @@ if name == "Jeff":
 	print("alright")
 ```
 a.
-
 ```
 ok
 alright
 ```
+b. ```ok```
 
-	b. ```ok```
-	c. nothing
-	d. ```alright```
+c. nothing
+
+d. ```alright```
 
 
 10. What will be printed with the following code
@@ -385,7 +385,7 @@ else:
 	print("sounds good")
 ```
 
-10a.
+a.
 ```
 ok
 alright
