@@ -331,7 +331,8 @@ Code up a simple algorithm that takes input and store your name, age, and gender
 ### Problem 2:
 Get two ages from user and check if the sum of two ages are greater than 50. 
 
-### Oct 1
+
+## Oct 1:
 
 Quiz: 
 1. how do we get input?
