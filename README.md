@@ -406,4 +406,102 @@ We want to create a code to get the age as an input to decide if a given age is 
 3. if the age is 18 or above print adult
 4. if the age is beyond 100 print insane. 
 
+# Oct 8
+
+We have learned variable, a box that stores a number, so far and the question comes down with, can we store a bunch of variables into a big box?
+
+Yes, it is call a list. A list is referring to array of numbers, a list of numbers, a big container to store multiple numbers, and so on. In another words, it is kind of like your school bag that carries multiple books at one go. 
+
+We can create a list by typing
+```python
+a = []
+```
+The **[ ]** is referring to a list. 
+
+We can create a list with ```1 2 3 4 5``` with the following code
+```python
+numbers = [1,2,3,4,5]
+```
+We can also store english, really a string, in to it
+```python
+names = ["apple", "orange", "banana"]
+```
+To print out the entire list, we can do
+```python
+names = ["apple", "orange", "banana"]
+print(names)
+```
+
+To get the length of the list, we can use ```len(variable_name)```.
+```python
+len(names)
+```
+
+To extract a particular element from the list, we simply use the name of the list, and use the square bracket with the location of that element. For example, ```names = ["apple", "orange", "banana"]```, we know that apple is at the first position, however; computer starts counting from 0.
+
+One thing we should know by now, the \# is referring to comment in python that is something that the computer will ignore when the computer is trying to run your code. 
+
+So, if we want to print out a particular element from the list, we simply do the following
+
+```python
+names = ["apple", "ornage", "banana"]
+#position   0		1			2
+
+print(names[0]) # i will print apple on the screen
+print(names[1]) # i will print orange on the screen
+print(names[2]) # i will print banana on the screen
+```
+
+From here, let learn how to use a loop.
+
+A loop is basically repeating a set of custom designed insturctions to do certain things. Lets say we would like to print
+I like to eat apple
+I like to eat orange
+I like to eat banana
+
+As you can see, we are repeating "I like to eat" + the elements in the list, names. So what is really changing is the element from the list. To do that we have to set up a loop.
+
+```python
+for variable_name in list: #(1)
+	#for loop body #(2)
+```
+
+Thats the template. The varaible_name is a variable that represents each element from the list. Once **(1)** is executed i will execute **(2)**. (2) can be a block of instruction, it can also be one line of code or simply a print statement. Once (2) is done, we will go back to (1) and get the next element from the list.
+
+Lets go back to our question, since we would like to print the following, 
+
+I like to eat apple
+I like to eat orange
+I like to eat banana
+
+and what changes all the time is the name of the fruit, that means we will do the following
+
+```python
+names = ["apple", "orange", "banana"]
+for fruits_name in names:
+	print("I like to eat ", fruits_name)
+```
+
+What if we do not want to use **len()** to get the amount of elements in names? 
+
+logic break down
+1. We need something to keep track of the count
+2. We need to go thru the list one by one completely
+3. we need to print the amount of values in the list
+
+Well, since we need something to keep track of the variable, what we need is a variable. Variable allows us to do math on it or keep changing it. As a result, creating a variable before step 2 will allow us to use the variable in step 2.
+
+As of 2, to go thru the list one by one, we need a loop. Since a loop allows us to go thru the list complete one by one and each iteration, the loop allows us to perform certain tasks with in the loop body, that helps us to do a lot of things. As a result, in our case we just have to use the variable and add 1 to it then when the loop has gone thru the entire structure, we will have the total amount of elements in the list.
+
+Lastly, we simply have to print the count that we have then we are all good.
+
+```python
+names = ["apple", "ornage", "banana"]
+numberOfElement = 0
+for fruits_names in names:
+	numberOfElement += 1
+print("We have ", numberOfElement, " in names")
+```
+
+
 
