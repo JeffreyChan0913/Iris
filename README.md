@@ -525,11 +525,13 @@ age = [1,2,3]
 ### Loop
 1. we have learned two things, ```len(a_list)``` that gives a the number of element in ```a_list```.
 2. ```for i in a_list: ```, this let the variable i to represent each element from the list and we can perform certain task on i.
-    a. ```python
-        a = [1,2,3]
-        for i in a:
-            print(i)
-        ```
+
+    a. 
+```python
+a = [1,2,3]
+for i in a:
+    print(i)
+```
 
 ### Problem
 1. you will be given some numbers to identify if a student is getting A,B, or C.
