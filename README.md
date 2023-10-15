@@ -532,9 +532,15 @@ age = [1,2,3]
         ```
 
 ### Problem
-1. you will be given some numbers to identify if a student get A B or C.
+1. you will be given some numbers to identify if a student is getting A,B, or C.
 2. 90 - 100 A
 3. 80 - 89 B
 4. 70 -79 C
 5. otherwise F
+
+### HW
+
+You are given a list ```direction = ["l", "r", "u", "d", "u", "d", "r", "u", "l", "l", "u", "d", "r", "u"]```. What you need to do is to count how many l, r, u, and d do we have in the list.
+
+In our case, we will have l = 3, r = 3, u = 4, d = 3. 
 
