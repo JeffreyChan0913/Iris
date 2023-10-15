@@ -504,4 +504,37 @@ print("We have ", numberOfElement, " in names")
 ```
 
 
+# Oct 15
+
+Remember what we have learned so far
+
+### Decision
+1. If we want to check something is in between a range, we will use ```if A and B:```, where a is A and B are predicates. 
+2. If we want to know if either condition is true or not we can apply ```if A or B:```.
+
+### List
+1. it is a container that stores a lot of values. if we have multiple ages, we can simply put that into the list
+```python
+age1 = 1
+age2 = 2
+age3 = 3
+
+age = [1,2,3]
+```
+
+### Loop
+1. we have learned two things, ```len(a_list)``` that gives a the number of element in ```a_list```.
+2. ```for i in a_list: ```, this let the variable i to represent each element from the list and we can perform certain task on i.
+    a. ```python
+        a = [1,2,3]
+        for i in a:
+            print(i)
+        ```
+
+### Problem
+1. you will be given some numbers to identify if a student get A B or C.
+2. 90 - 100 A
+3. 80 - 89 B
+4. 70 -79 C
+5. otherwise F
 
