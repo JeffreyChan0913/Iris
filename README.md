@@ -562,6 +562,7 @@ Male: 12
 Female: 11
 ```
 
+### Problem 2
 Create a list with the following 
 ```
 Math CS English Math CS English Math CS English Math CS English Math CS English 
