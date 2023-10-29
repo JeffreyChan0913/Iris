@@ -546,3 +546,32 @@ You are given a list ```direction = ["l", "r", "u", "d", "u", "d", "r", "u", "l"
 
 In our case, we will have l = 3, r = 3, u = 4, d = 3. 
 
+# Oct 29 2023
+### Problem
+Create a list with the following 
+```
+M F F M M F F F F F F F F M M M M M M M M F M
+```
+
+What we need to do here is to count how many F and M appear in the list.
+
+In this case we have we have 12 Ms and 11 Fs. So, our output should look like
+
+```
+Male: 12
+Female: 11
+```
+
+Create a list with the following 
+```
+Math CS English Math CS English Math CS English Math CS English Math CS English 
+```
+
+What we need to do here is to count how many instances of CS, English, and Math appear in the list.
+
+Our output should look like the following
+```
+5 math
+5 english
+5 cs
+```
