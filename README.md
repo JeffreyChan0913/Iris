@@ -576,3 +576,9 @@ Our output should look like the following
 5 english
 5 cs
 ```
+
+# Nov 12, 2023
+Currently, you have a school bag that takes in multiple school text books. In your school bag, you have the following books ```E, E, C,M,M,M,P,P```. You goal here is to count how many E (english), C (chinese), M (Math), and P (Physic) books do you have. 
+
+the output should be ``` 2 1 3 2```
+
