@@ -618,5 +618,6 @@ From this piece of solution, answer the following
 11. what's the purpose of those if else if statement block? 
 
 ### Problem
-create a H and T list. Frequency of H and T will be decided by you. Count how many H and T are there and output its probability based on the list you have created. 
+Create a H and T list. Frequency of H and T will be decided by you. Count how many H and T are there and output its probability based on the list you have created. 
 
+H = Head, T = Tail. We are basically simulating a coin toss situation and find its probability for the head and tail. 
