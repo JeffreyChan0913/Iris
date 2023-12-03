@@ -577,8 +577,46 @@ Our output should look like the following
 5 cs
 ```
 
+
+
 # Nov 12, 2023
 Currently, you have a school bag that takes in multiple school text books. In your school bag, you have the following books ```E, E, C,M,M,M,P,P```. You goal here is to count how many E (english), C (chinese), M (Math), and P (Physic) books do you have. 
 
 the output should be ``` 2 1 3 2```
+
+# Dec 3, 2023
+### Oct 15, 2023 solution
+```python
+direction = ["l", "r", "u", "d", "u", "d", "r", "u", "l", "l", "u", "d", "r", "u"]
+l = 0
+r = 0
+u = 0
+d = 0
+for getDirection in direction:
+    if getDirection == "l":
+        l = l + 1
+    else if getDirection == "r":
+        r = r + 1
+    else if getDirection == "u":
+        u = u + 1
+    else:
+        d = d + 1
+print(f"l = {l}, r = {r}, u = {u}, d = {d}")
+```
+
+From this piece of solution, answer the following
+1. explain how does the loop operate
+2. how many times would the loop iterate? 
+3. how many times would getDirection == "l" be executed?
+4. how many times would getDirection == "r" be executed?
+5. how many times would getDirection == "u" be executed?
+6. how many times would getDirection == "d" be executed?
+7. how many times would l = l + 1 be executed?
+8. how many times would r = r + 1 be executed?
+9. how many times would u = u + 1 be executed?
+10.how many times would d = d + 1 be executed?
+11. what's the purpose of those if else if statement block? 
+
+### Problem
+create a H and T list. Frequency of H and T will be decided by you. Count how many H and T are there and output its probability based on the list you have created. 
 
