@@ -624,6 +624,6 @@ H = Head, T = Tail. We are basically simulating a coin toss situation and find i
 
 $$n = \text{Number of coin toss}$$
 
-$$\mathbb{P}(Head) = \frac{frequency_{Head}}{n}$$
+$$\mathbb{P}(H) = \frac{frequency_{H}}{n}$$
 
-$$\mathbb{P}(Tail) = \frac{frequency_{Tail}}{n}$$
+$$\mathbb{P}(T) = \frac{frequency_{T}}{n}$$
