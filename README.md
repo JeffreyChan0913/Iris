@@ -621,9 +621,5 @@ From this piece of solution, answer the following
 Create a H and T list. Frequency of H and T will be decided by you. Count how many H and T are there and output its probability based on the list you have created. 
 
 H = Head, T = Tail. We are basically simulating a coin toss situation and find its probability for the head and tail. In case one do not know what is a probability, we define the probability of Head as follow:
-$$\begin{equation}
-\mathbb{P}(Head) = \frac{frequency_{Head}}{n_{total\;of\;toss}}
-\end{equation}$$
-$$\begin{equation}
-\mathbb{P}(Tail) = \frac{frequency_{Tail}}{n_{total\;of\;toss}}
-\end{equation}$$
+$$\mathbb{P}(Head) = \frac{frequency_{Head}}{n_{total\;of\;toss}}$$
+$$\mathbb{P}(Tail) = \frac{frequency_{Tail}}{n_{total\;of\;toss}}$$
