@@ -614,7 +614,7 @@ From this piece of solution, answer the following
 7. how many times would l = l + 1 be executed?
 8. how many times would r = r + 1 be executed?
 9. how many times would u = u + 1 be executed?
-10.how many times would d = d + 1 be executed?
+10. how many times would d = d + 1 be executed?
 11. what's the purpose of those if else if statement block? 
 
 ### Problem
