@@ -585,9 +585,9 @@ Currently, you have a school bag that takes in multiple school text books. In yo
 the output should be ``` 2 1 3 2```
 
 # Dec 3, 2023
-### Oct 15, 2023 solution
+## Oct 15, 2023 solution
 ```python
-direction = ["l", "r", "u", "d", "u", "d", "r", "u", "l", "l", "u", "d", "r", "u"]
+direction = ["l", "r", "u", "d", "u", "d", "r", "u", "l", "l", "u", "d", "r", "u"]`
 l = 0
 r = 0
 u = 0
@@ -603,20 +603,6 @@ for getDirection in direction:
         d = d + 1
 print(f"l = {l}, r = {r}, u = {u}, d = {d}")
 ```
-
-From this piece of solution, answer the following
-1. explain how does the loop operate
-2. how many times would the loop iterate? 
-3. how many times would getDirection == "l" be executed?
-4. how many times would getDirection == "r" be executed?
-5. how many times would getDirection == "u" be executed?
-6. how many times would getDirection == "d" be executed?
-7. how many times would l = l + 1 be executed?
-8. how many times would r = r + 1 be executed?
-9. how many times would u = u + 1 be executed?
-10. how many times would d = d + 1 be executed?
-11. what's the purpose of those if else if statement block? 
-
 ### Problem
 Create a H and T list. Frequency of H and T will be decided by you. Count how many H and T are there and output its probability based on the list you have created. 
 
@@ -627,3 +613,32 @@ $$n = \text{Number of coin toss}$$
 $$\mathbb{P}(H) = \frac{frequency_{H}}{n}$$
 
 $$\mathbb{P}(T) = \frac{frequency_{T}}{n}$$
+
+#Dec 17, 2023
+
+You are hired by the California Highway Patrol to perform a analysis on how fast the cars are moving on the 10 freeway. 
+
+This time, you will need to use a library, numpy, to generate a series of numbers. In order to do that, you need to type the following
+before anything else.
+
+```python
+import numpy as np
+```
+
+In order to generate a series of numbers, you should do the following
+
+```python
+np.random.normal(75,15,20)
+```
+
+np.random.normal(average speed, standard deviation of the speed, number of points you need)
+
+Once you are done, we will consider the following range, 
+1. 90+ is too fast
+2. [80,90) is pretty fast
+3. [75,80) is fast
+4. [65,75) is normal
+5. [55,65) is slow
+6. below 55 is too slow. 
+
+Find the probability that of each speed you have seen on the freeway (simulation) that is considered as fast, pretty fast, fast, normal, slow, and too slow. 
