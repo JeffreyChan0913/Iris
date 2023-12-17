@@ -641,4 +641,4 @@ Once you are done, we will consider the following range,
 5. [55,65) is slow
 6. below 55 is too slow. 
 
-Find the probability that of each speed you have seen on the freeway (simulation) that is considered as fast, pretty fast, fast, normal, slow, and too slow. 
+Find the probability of each speed you have seen on the freeway (simulation) that is considered as fast, pretty fast, fast, normal, slow, and too slow. 
