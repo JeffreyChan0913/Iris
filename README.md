@@ -642,3 +642,22 @@ Once you are done, we will consider the following range,
 6. below 55 is too slow. 
 
 Find the probability of each speed you have seen on the freeway (simulation) that is considered as fast, pretty fast, fast, normal, slow, and too slow. 
+
+Solution
+```python
+import numpy as np
+speed = np.random.normal(75,15,20)
+fast = 0
+slow = 0
+norm = 0
+for getSpeed in speed:
+    if getSpeed < 60:
+        slow += 1
+    elif getSpeed >= 60 and getSpeed < 90:
+        norm += 1
+    else:
+        fast += 1
+
+n = len(speed)
+print(f"Prob of slow {slow/n}\nProb of norm: {norm/n}\nProb of fast: {fast/n}")
+```
