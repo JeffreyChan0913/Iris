@@ -661,3 +661,64 @@ for getSpeed in speed:
 n = len(speed)
 print(f"Prob of slow {slow/n}\nProb of norm: {norm/n}\nProb of fast: {fast/n}")
 ```
+
+# May 25, 2024 Solution
+1. Find the minimum value from a list.
+
+```python
+l = [5,23,4,6534,3,6,-2,9]
+
+minimum = 99999999
+for i in l:
+    if i < minimum:
+        minimum = i
+print(minimum)
+```
+
+Alternative solution
+
+```python
+l = [5,23,4,6534,3,6,-2,9]
+minimum = l[0] 
+for i in l:
+    if i < minimum:
+        minimum = i
+print(minimum)
+```
+
+2. Problem 2 solution
+
+```python
+l = [[324,23,52,,235,2],[5,23,4,6534,3,6,-2,9],[234,234,2342,356,1267,34,-41421]]
+minimum = 99999999
+for aList in l:
+    for val in aList:
+        if i < minimum:
+            minimum = i
+print(minimum)
+```
+
+
+# Holiday homework
+
+1. Provide an alternative solution to  May 25 question 1.
+2. Provide an alternative solution to May 25 question 2.
+3. Use a while loop to solve May 25 question 1.
+4. Use a while loop to solve May 25 question 2.
+5. Create a calculator that includes add, subtract, multiply, and divide operations.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
